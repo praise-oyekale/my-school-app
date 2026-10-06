@@ -1,0 +1,41 @@
+.input-group{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width :100%;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.input-group label{
+    font-size: 14px;
+    font-weight: 500;
+    color: #b6bcca;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman";
+}
+
+.input-group input {
+    width: 100%;
+    padding: 15px 14px;
+    border-radius: 7px;
+    border: none;
+    background-color: #0B1220;
+    outline: none;
+    color: white;
+
+
+}
+.input-group input::placeholder{
+    color: #b6bcca;
+}
+
+.input-group input:focus{
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(52, 85, 155, 0.1);
+}
+.input-error{
+    margin: 0;
+    font-size: 10px;
+    color: #dc2626;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman";
+}

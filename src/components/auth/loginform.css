@@ -1,0 +1,35 @@
+.forgot-password{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman";
+    font-size: 15px;
+
+}
+
+.loggin-btn{
+    width: 80%;
+    padding: 13px;
+    margin-top: 20px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #F69919;
+    color: black;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: background-color 0.5s ease, transfrom 0.5s ease;
+}
+
+.loggin-btn:hover{
+    background-color: #f5a93f;
+}
+.loggin-btn:hover{
+    transform: scale(0.99);
+}

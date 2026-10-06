@@ -1,0 +1,22 @@
+:root {
+  --color-primary: #9B7634;
+  --color-dark: #060D1F;
+  --color-accent: #F59E0B;
+  --color-white: #FFFFFF;
+  --color-background: #E1B153;
+  --color-text: rgb(172, 183, 201);
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body{
+  margin: 0;
+  min-height: 100%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman";
+}
+body{
+  background-color: var(--color-dark);
+  color: var(--color-white);
+}

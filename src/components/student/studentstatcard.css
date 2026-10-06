@@ -1,0 +1,37 @@
+.studentstatcard-container {
+  background-color: #ffffff;
+  color: black;
+
+  /* width: 300px; */
+  /* min-width: 200px; */
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0px 2px 1px 1px rgba(155, 148, 148, 0.1);
+
+
+}
+
+.studentstatcard-container span{
+    background-color: #EEF3FF;
+    padding: 12px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    width: 40px;
+
+    color: blue;
+
+}
+
+.studentstatcard-container h1{
+    margin-top: 7px;
+    font-weight: 600;
+    font-size: 27px;
+}
+
+.studentstatcard-container p{
+    color: #7774A7;
+}

@@ -1,0 +1,37 @@
+.login-container{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login-contents{
+    width: 65%;
+    /* border: 1px solid; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+.login-details{
+    text-align: center;
+    /* border-radius: 15px; */
+}
+.login-details h1{
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman";
+    font-size: 40px;
+}
+.subtopic-login{
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman";
+    color: grey;
+    /* margin-top: -20px; */
+}
+.have-account{
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman";
+    color: grey;
+    margin-top: 20px;
+}

@@ -1,0 +1,38 @@
+.login-welcome{
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.6)),  url(../../assets/images/students-img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 7px;
+}
+.login-welcome h1{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman";
+
+}
+
+.loginwelcome-rolebased{
+    margin-top: 80px;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    background-color:  rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 15px;
+}
+.loginwelcome-rolebased h4{
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman";
+    font-size: 18px;
+}
+.loginwelcome-rolebased p{
+   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman";
+   font-size: 13px;
+   color: rgb(170, 160, 160); 
+}
